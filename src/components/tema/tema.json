@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_tema_temas",
+  "info": {
+    "displayName": "Tema"
+  },
+  "options": {},
+  "attributes": {
+    "titol": {
+      "type": "string",
+      "required": true
+    },
+    "descripcio": {
+      "type": "richtext",
+      "required": true
+    },
+    "imatge": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

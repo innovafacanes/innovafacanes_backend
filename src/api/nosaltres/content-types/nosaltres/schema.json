@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "nosaltress",
+  "info": {
+    "singularName": "nosaltres",
+    "pluralName": "nosaltress",
+    "displayName": "Nosaltres"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "titol": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "tema": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "tema.tema",
+      "required": true
+    }
+  }
+}

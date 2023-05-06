@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_rao_perque_nosaltres",
+  "info": {
+    "displayName": "perque_nosaltres"
+  },
+  "options": {},
+  "attributes": {
+    "titol_rao": {
+      "type": "string",
+      "required": true,
+      "default": "Raó"
+    },
+    "descripcio_rao": {
+      "type": "text",
+      "required": true,
+      "default": "descripció raó"
+    }
+  }
+}
