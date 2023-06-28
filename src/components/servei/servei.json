@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_servei_serveis",
+  "info": {
+    "displayName": "Servei",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titol_servei": {
+      "type": "string",
+      "required": true
+    },
+    "descripcio_servei": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
